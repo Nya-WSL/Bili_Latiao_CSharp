@@ -1,0 +1,46 @@
+## 忽略 Visual Studio 临时文件、编译结果及常见插件文件
+## 官方源：https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+
+# 用户特定文件
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 编译输出目录
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio 缓存目录（重要！包含项目浏览状态）
+.vs/
+
+# .NET Core 项目文件
+project.assets.json
+project.lock.json
+artifacts/
+
+# NuGet 包目录（通常通过 restore 还原，无需提交）
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# MSTest 测试结果
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# 其他中间文件
+*.pdb
+*.cache
+*.ilk
+*.tmp
+/publish
