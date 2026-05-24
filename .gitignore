@@ -44,3 +44,4 @@ artifacts/
 *.ilk
 *.tmp
 /publish
+config.json
